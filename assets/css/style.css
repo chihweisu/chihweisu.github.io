@@ -1,7 +1,8 @@
 .masthead{
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
-    background-image: url('../images/background.jpg') ;
+    background-image: url('https://github.com/chihweisu/chihweisu.github.io/blob/main/assets/images/background.jpg?raw=true') ;
+    /* background-image: url('../images/background.jpg') ; */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
