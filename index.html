@@ -5,145 +5,196 @@
     <title>Chih Wei Su's Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link  href="assets/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>    
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;500&display=swap" rel="stylesheet">
     
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a42985f373.js" crossorigin="anonymous"></script>
 
 </head>
-  <body>
-      <!--////////////////////////////////Navbar Starts Here /////////////////////////////// -->
-    <div class="black-screen container-fluid"> 
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6 ">
-                    <nav id="navbar" class="navbar" >
-                            <a class="nav-link active" href="">Home</a>
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Resume</a>
-                            <a class="nav-link" href="#">Portfolio</a>
-                            <a class="nav-link" href="#">Contact</a>
-                    </nav>
+    <body>
+        <!--////////////////////////////////Navbar Starts Here /////////////////////////////// -->
+        <div class="container-fluid  pt-5">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">ChihWeiSu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about_me">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Resume</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-            </div>
-        </div>  
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="assets/images/myphoto2.png" alt="not found">       
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-5">
-                    <h3><br><br><br><br></h3>
-                    <h4 class="intro">Hello I'm</h4>
-                    <h1 class="intro">Chih Wei Su</h1>
-                    <h5 class="intro">I'm changing my career to be a backend Engineer </h5>    
-                    <div class="social-links">
-                        <a href="https://github.com/chihweisu" class="github"><br><i class="fa-brands fa-github fa-xl"></i></a>
-                        <a href="https://www.linkedin.com/in/chihwei-su-789480152" class="linkedin"><i class="fa-brands fa-linkedin  fa-xl"></i></i></a>                      
-                        <a href="#" class="facebook"><i class="fa-brands fa-facebook  fa-xl"></i></a>
-                        <a href="#" class="instagram"><i class="fa-brands fa-square-instagram  fa-xl"></i></a>
-                    </div>                  
-                </div>  
+            </nav>
+        </div>
+        <!--////////////////////////////////Header Starts Here /////////////////////////////// -->
+        <div class="container-fluid row pt-5  text-white masthead" > 
+            <div class="col-sm-6"> </div>
+            <div class="col-sm-6">
+                <h4 class="intro" style="font-size: 30px">Hello I'm</h4>
+                <h1 class="intro" style="font-size: 60px">Chih Wei Su</h1>
+                <h1 class="intro" style="font-size: 30px">from a structural engineer to a software engineer </h1>
+                <div id="social-links">
+                    <a href="https://github.com/chihweisu" class="github"><i class="fa-brands fa-github fa-xl"></i></a>
+                    <a href="https://www.linkedin.com/in/chihwei-su-789480152" class="linkedin"><i class="fa-brands fa-linkedin  fa-xl"></i></i></a>                      
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook  fa-xl"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-square-instagram  fa-xl"></i></a>
+                </div>   
             </div>
         </div>
-    </div>
-      <!--////////////////////////////////Header Starts Here /////////////////////////////// -->
-    <div class="container-fluid">
-
-    </div>
-      <!--////////////////////////////////About me Starts Here /////////////////////////////// -->
-    <div id="about" class="container-fluid">
-        <div class="container content">
-            <div class="row">
-                <h2 class="section-title">About me</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    
-                    <div class="row">
-                        <div class="col-md-6 col-12">
-                            <ul>
-                                <strong></strong>
-                                <li><strong>Birthday&nbsp:&nbsp</strong><span>30 Jan 1996</span></li>
-                                <li><strong>Website&nbsp:&nbsp</strong><span>https://chihweisu.github.io/</span></li>
-                                <li><strong>City&nbsp:&nbsp</strong><span>Taipei, Taiwan</span></li>
-                            </ul>
+        <!--////////////////////////////////About me Starts Here /////////////////////////////// -->
+        <div class="container-fluid pt-5 about">
+            <div class="row  justify-content-center">
+                    <div class="col-lg-5">
+                        <h2 id="about_me" style="text-align: center;">About me</h2>
+                        <hr />
+                        <div class="row">
+                            <div class="col-xxl-6">
+                                <ul>
+                                    <li><strong>Birthday&nbsp:&nbsp</strong><span>30 Jan 1996</span></li>
+                                    <li><strong>Website&nbsp:&nbsp</strong><span>Click here</span></li>
+                                    <li><strong>City&nbsp:&nbsp</strong><span>Taipei, Taiwan</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-xxl-6">
+                                <ul>
+                                    <li><strong>Age&nbsp:&nbsp</strong><span>27</span></li>
+                                    <li><strong>Degree&nbsp:&nbsp</strong><span>Master</span></li>
+                                    <li><strong>Email&nbsp:&nbsp</strong><span>jj19960130@gmail.com</span></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <ul>
-                                <li><strong>Age&nbsp:&nbsp</strong><span>27</span></li>
-                                <li><strong>Degree&nbsp:&nbsp</strong><span>Master</span></li>
-                                <li><strong>Email&nbsp:&nbsp</strong><span>jj19960130@gmail.com</span></li>
-                            </ul>
+                        <div class="row container">
+                            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"</p>
                         </div>
-                    </div> 
-                    <div class="row container">
-                        <p>Graduated from NTU, used to be a professional structural engieer and civil engineer. Recently, I make a career change to become a software engineer.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/images/myphoto.png" alt="not found">     
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <span class="skill">HTML <i class="val">50%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 50%"></div>
+                                </div>
+                                <span class="skill">CSS <i class="val">40%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 40%"></div>
+                                </div>
+                                <span class="skill">JAVASCRIPT <i class="val">30%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 30%"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <span class="skill">PYTHON<i class="val">   75%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 75%"></div>
+                                </div>
+                                <span class="skill">C++ <i class="val">20%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 20%"></div>
+                                </div>
+                                <span class="skill">MATLAB <i class="val">60%</i></span>
+                                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar " style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>        
+                    <div class="col-lg-3">
+                        <img src="assets/images/myphoto2.png" class="selfie" alt="not found">     
+                    </div>    
             </div>
-            <div class="skills row">
-                <div class="col-md-6">
-                    <span class="skill">HTML <i class="val">50%</i></span>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 50%"></div>
+
+        </div>
+        <!--////////////////////////////////Resume Starts Here /////////////////////////////// -->
+        <div class="container-fluid pt-5  bg-dark text-white">
+            <h2 id="experience" style="text-align: center;">Experiences and Educations</h2>
+            <hr />
+            <div class="row justify-content-center ">
+                <div class="col-xxl-4">
+                    <div class="col resume_title">
+                        <h3>Structural Engineer | Taipei</h3>
+                        <p class="col ms-auto">May, 2021 ~ May, 2023</p>
                     </div>
-                    <span class="skill">CSS <i class="val">40%</i></span>
-                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 40%"></div>
+
+                    <div class="col resume_title">
+                        <h3>Research Assistant | ShangHai</h3>
+                        <p class="col ms-auto"> | March, 2018 ~ May, 2018</p>
                     </div>
-                    <span class="skill">JAVASCRIPT <i class="val">30%</i></span>
-                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 30%"></div>
+                    <div class="col resume_title">
+                        <h3>Research Assistant | Hong Kong</h3>
+                        <p class="col ms-auto">The Hong Kong Polytechnic University | July, 2017 ~ Sep, 2017</p>
                     </div>
+                    <div class="col resume_title">
+                        <h3>Field Engineer Intern | Taipei</h3>
+                        <p class="col ms-auto">陶朱隱園 | July, 2016 ~ Sep, 2016</p>
+                    </div>
+                    <p class="col ms-auto">陶朱隱園 | July, 2016 ~ Sep, 2016</p>
+
                 </div>
-                <div class="col-md-6">
-                    <span class="skill">PYTHON<i class="val">   75%</i></span>
-                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 75%"></div>
+                <div class="col-xxl-4">
+                    <div class="col resume_title">
+                        <h3>National Taiwan University</h3>
+                        <p class="col">M.S | Division of Structural Engineering | Sep, 2018 ~ Aug, 2020</p>
                     </div>
-                    <span class="skill">C++ <i class="val">20%</i></span>
-                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 20%"></div>
+                    <div class="col resume_title">
+                        <h3>Exchange Student</h3>
+                        <p class="col ms-auto">Tong Ji University | Feb, 2018 ~ May, 2018</p>
                     </div>
-                    <span class="skill">MATLAB <i class="val">60%</i></span>
-                      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar " style="width: 60%"></div>
+                    <div class="col resume_title">
+                        <h3>National Cheng Kung University</h3>
+                        <p class="col ms-auto">B.S | Division of Civl Engineering | Sep, 2014 ~ June, 2018</p>
+                    </div>
+
+                    <div class="col resume_title">
+                        <h3>Chien Kuo High School</h3>
+                        <p class="col ms-auto">Sep, 2011 ~ June 2014</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-      <!--////////////////////////////////Resume Starts Here /////////////////////////////// -->
-
-    <div class="black-screen container-fluid">
-        <div class="'contianer">
+        <!--////////////////////////////////Portfoilio Starts Here /////////////////////////////// -->
+        <div class="container-fluid pt-5">
+            <h2 id="portfolio" style="text-align: center;">Portfolio</h2>
+            <hr />
             <div class="row">
-                <h2 class="section-title">Resume</h2>
-            </div>
-            <div class="row">
-                <div class="col-md6">
-                    <h4>yoooooooooooooooooooo</h4>
-                    <h4>yoooooooooooooooooooo</h4>
-                </div>
-                <div class="col-md6">
-                    <h4>yoooooooooooooooooooo</h4>
-                    <h4>yoooooooooooooooooooo</h4>
-                </div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-2"></div>
             </div>
         </div>
-    </div>
-    <script src="https://kit.fontawesome.com/a42985f373.js" crossorigin="anonymous"></script>
+        <!--////////////////////////////////Contact /////////////////////////////// -->
+        <div class="container-fluid pt-5 bg-dark text-white">
+            <h1>hello!</h1>
+        </div>
   </body>
 </html>
 
 
+<!-- <div class="col-md-7">
+
+</div> -->
+
+
+<!-- 
+<div class="col-md-12 justify-content-center" style="float:end">
+    <img src="assets/images/myphoto2.png" alt="not found">     
+</div> -->
